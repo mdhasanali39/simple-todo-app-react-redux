@@ -1,11 +1,12 @@
 import './App.css'
+import TaskPanel from './components/TaskPanel/TaskPanel'
 
 function App() {
 
   return (
     <>
       <div>
-        app component
+        <TaskPanel/>
       </div>
     </>
   )
